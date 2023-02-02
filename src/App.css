@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .App-header {
@@ -61,7 +62,7 @@
 
 .Movie-date {
   font-style: italic;
-  margin-top: 26px;
+  /* margin-top: 26px; */
   font-weight: bold;
 }
 
@@ -79,9 +80,9 @@
   border-radius: 20px;
 }
 
-.Movie-release {
+/* .Movie-release {
   transform: translateY();
-}
+} */
 
 @media screen and (max-width: 487px) {
   .Movie-container {
@@ -95,10 +96,11 @@
   .Movie-wrapper {
     width: 150px;
     height: 380px;
+    padding: 0 14px;
   }
 
   .Movie-image {
-    width: 130px;
-    height: 180px;
+    width: 140px;
+    height: 190px;
   }
 }
